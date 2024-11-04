@@ -1,7 +1,6 @@
 venv/
 spotify.json
 Imagga_key.txt
-Spotify_ImageAnalysis.ipynb
 .ipynb_checkpoints/
 .cache*
 Imagga_key.json
