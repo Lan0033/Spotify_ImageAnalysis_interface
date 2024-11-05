@@ -6,8 +6,8 @@ The Image Playlist Generator tool aims to create music playlists based on  user-
 
 **Features**  
 
-- Image Upload: Users can upload images from their device or take photos  directly within the app. 
--  Automatic Playlist Generation: Based on the analysis of the uploaded image,  the app will generate a Spotify playlist that reflects the themes or activities in the  photo (e.g., a beach scene could generate a summery playlist).
+- **Image Upload**: Users can upload an image URL to replace the current image. 
+- **Automatic Playlist Generation**: Based on the analysis of the uploaded image, the tool will generate a Spotify playlist that reflects the themes or activities in the photo. For example, a beach scene might result in a summery playlist.
 
 ## Table of Contents
 
