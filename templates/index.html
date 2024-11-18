@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Spotify Playlist from Image</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Create Spotify Playlist from Image</h1>
+        <form action="/" method="POST" class="form-group">
+            <label for="image_url">Enter Image URL:</label>
+            <input type="text" id="image_url" name="image_url" class="form-control" value="{{ image_url }}" placeholder="Enter a valid image URL" required>
+            <button type="submit" class="btn btn-primary mt-3">Generate Playlist</button>
+        </form>
+
+        {% if error_message %}
+            <p class="error-message">{{ error_message }}</p>
+        {% endif %}
+
+        {% if image_url %}
+            <div class="mt-4">
+                <h3>Image Preview:</h3>
+                <img src="{{ image_url }}" alt="Image Preview" class="img-preview">
+            </div>
+        {% endif %}
+
+        {% if playlist_info %}
+            <div class="mt-4">
+                <h3>Playlist Created!</h3>
+                <p><strong>Playlist Name:</strong> {{ playlist_info.name }}</p>
+                <p><strong>Description:</strong> {{ playlist_info.description }}</p>
+                <p><a href="{{ playlist_info.url }}" target="_blank">Open Playlist on Spotify</a></p>
+                <iframe src="{{ playlist_info.embed_url }}" allow="encrypted-media"></iframe>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
