@@ -14,9 +14,18 @@ Access the Web Interface:
 Open your browser and go to http://127.0.0.1:5000/ to access the interface.
 
 Using the Interface:
-Input Image URL: On the homepage, you will see an input field where you can paste the URL of an image.
-Generate Playlist: After entering the image URL, click the Generate Playlist button. The tool will fetch tags related to the image, create a Spotify playlist, and display the playlist along with a preview of the image.
-Spotify Embed: The tool embeds the playlist in an iframe, allowing you to listen to the generated playlist directly on the webpage.
+
+Input Image URL:
+
+On the homepage, you will see an input field where you can paste the URL of an image.
+
+Generate Playlist: 
+
+After entering the image URL, click the Generate Playlist button. The tool will fetch tags related to the image, create a Spotify playlist, and display the playlist along with a preview of the image.
+
+Spotify Embed: 
+
+The tool embeds the playlist in an iframe, allowing you to listen to the generated playlist directly on the webpage.
 
 **Purpose of the tool** 
 
