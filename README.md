@@ -1,5 +1,22 @@
 # Image Playlist Generator
 
+**Running the Flask Application** 
+Flask Setup:
+The tool is built with Flask, a lightweight Python web framework. You can run the Flask application locally by following these steps:
+
+**Start the Flask app**
+
+```
+python app.py
+```
+Access the Web Interface:
+Open your browser and go to http://127.0.0.1:5000/ to access the interface.
+
+Using the Interface:
+Input Image URL: On the homepage, you will see an input field where you can paste the URL of an image.
+Generate Playlist: After entering the image URL, click the Generate Playlist button. The tool will fetch tags related to the image, create a Spotify playlist, and display the playlist along with a preview of the image.
+Spotify Embed: The tool embeds the playlist in an iframe, allowing you to listen to the generated playlist directly on the webpage.
+
 **Purpose of the tool** 
 
 The Image Playlist Generator tool aims to create music playlists based on  user-uploaded images. By analysing the content of the photos, the tool will curate  Spotify playlists that match the themes and activities depicted. This innovative approach has the  potential to deepen users’ connection to their music and memories.
@@ -8,6 +25,8 @@ The Image Playlist Generator tool aims to create music playlists based on  user-
 
 - **Image Upload**: Users can upload an image URL to replace the current image. 
 - **Automatic Playlist Generation**: Based on the analysis of the uploaded image, the tool will generate a Spotify playlist that reflects the themes or activities in the photo. For example, a beach scene might result in a summery playlist.
+- **Embedded Spotify Player**:  After the playlist is created, it is displayed in an embedded Spotify player, allowing users to directly interact with the playlist.
+- **Image Preview**: Users can see a preview of the uploaded image before the playlist is generated.
 
 ## Table of Contents
 
