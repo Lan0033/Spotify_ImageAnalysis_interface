@@ -1,6 +1,7 @@
 # Image Playlist Generator
 
 **Running the Flask Application** 
+
 Flask Setup:
 The tool is built with Flask, a lightweight Python web framework. You can run the Flask application locally by following these steps:
 
